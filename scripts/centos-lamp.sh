@@ -31,7 +31,7 @@ mysql -u root -e "SHOW DATABASES";
 
 # Download Starter Content
 cd /vagrant
-sudo -u vagrant wget -q https://raw.githubusercontent.com/xgn-takao/vagrant/master/files/index.html?token=AP2XBFEUTCHTS24JFICQ5PDAHHVC6
-sudo -u vagrant wget -q https://raw.githubusercontent.com/xgn-takao/vagrant/master/files/info.php?token=AP2XBFDXDG2SMGKKR3QUPZDAHHVGW
+sudo -u vagrant wget -q https://raw.githubusercontent.com/xgn-takao/vagrant/master/files/index.html
+sudo -u vagrant wget -q https://raw.githubusercontent.com/xgn-takao/vagrant/master/files/info.php
 
 service httpd restart
